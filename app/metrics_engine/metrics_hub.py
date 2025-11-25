@@ -1,16 +1,4 @@
-# metrics_hub2.py (UPDATED — integrated with social ingestion, trends, sentiment, and Sheets)
-"""
-Metrics Hub — updated to integrate:
- - SocialIngestor (live metrics)
- - TrendFetcher (trend scores)
- - sentiment_analyzer2 (sentiment + emotions)
- - integrations.sheets_connector (optional Google Sheets logging)
 
-Behavior:
- - Keeps CSV local storage for reproducibility/teaching
- - If GOOGLE_SHEET_ID env var is set, also writes each new record to Sheets
- - Provides utilities for fetching recent metrics, campaign history, ML training dataset
-"""
 
 import os
 import logging
@@ -62,7 +50,7 @@ except Exception as e:
     logger.info(f"TrendFetcher not available: {e}")
 
 # sentiment_analyzer2 provides analyze_sentiment(text) -> list(dict)
-from app.sentiment_engine.sentiment_analyzer2 import analyze_sentiment, analyze_post_comments
+from app.sentiment_engine.sentiment_analyzer import analyze_sentiment, analyze_post_comments
 
 
 # Environment flag for Sheets usage

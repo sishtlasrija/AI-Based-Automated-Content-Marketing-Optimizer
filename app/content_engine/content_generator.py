@@ -22,11 +22,11 @@ except Exception:
     GEMINI_AVAILABLE = False
 
 # Dynamic prompt builder
-from .dynamic_prompt2 import generate_engaging_prompt
+from .dynamic_prompt import generate_engaging_prompt
 
 # Trend optimizer (real-time trends)
 from app.integrations.trend_fetcher import TrendFetcher
-from app.content_engine.trend_based_optimizer3 import TrendBasedOptimizer
+from app.content_engine.trend_based_optimizer import TrendBasedOptimizer
 
 # Sheets logging
 from app.integrations.sheets_connector import append_row

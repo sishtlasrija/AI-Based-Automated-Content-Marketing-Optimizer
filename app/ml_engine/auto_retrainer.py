@@ -12,7 +12,7 @@ from app.integrations.social_ingestor import SocialIngestor
 from app.integrations.slack_notifier import SlackNotifier
 
 # AI Components
-from app.sentiment_engine.sentiment_analyzer2 import analyze_sentiment
+from app.sentiment_engine.sentiment_analyzer import analyze_sentiment
 from app.integrations.trend_fetcher import TrendFetcher
 from app.ml_engine.train_model import train  # Your existing training function
 

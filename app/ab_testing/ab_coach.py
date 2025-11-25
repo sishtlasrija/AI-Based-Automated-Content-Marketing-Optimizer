@@ -16,7 +16,7 @@ from app.integrations.social_ingestor import SocialIngestor
 from app.integrations.sheets_connector import append_row, read_rows, update_row, find_row
 from app.integrations.slack_notifier import SlackNotifier
 
-from app.sentiment_engine.sentiment_analyzer2 import analyze_sentiment, analyze_post_comments
+from app.sentiment_engine.sentiment_analyzer import analyze_sentiment, analyze_post_comments
 from app.integrations.trend_fetcher import TrendFetcher
 
 logger = logging.getLogger(__name__)
