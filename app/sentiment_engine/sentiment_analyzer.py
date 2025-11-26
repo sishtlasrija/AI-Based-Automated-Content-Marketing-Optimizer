@@ -1,16 +1,4 @@
-# sentiment_analyzer2.py (UPDATED FULL VERSION)
-"""
-Advanced sentiment_analyzer2.py
 
-Upgraded with:
----------------------------------
-1. Real social comment ingestion via SocialIngestor
-2. Trend awareness using TrendFetcher
-3. Google Sheets logging for sentiment results
-4. Unified output for pipeline integration (generator → optimizer → metrics)
-5. Strong fallbacks (HF → TextBlob)
-6. Student-friendly readable structure
-"""
 
 import logging
 from typing import List, Union, Dict
