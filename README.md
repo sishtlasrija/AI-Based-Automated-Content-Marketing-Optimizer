@@ -424,11 +424,14 @@ The **AutoRetrainer** also saves:
 
 ---
 
-## 👥 Contributors
+👥 Contributors
+👨‍💼 Project Lead
 
-### 👨‍💼 Project Lead  
-- **Charan Teja Mangali** — Lead Developer, System Architect & Mentor
+Charan Teja Mangali — Lead Developer, System Architect & Mentor
 
+👩‍💻 Contributor
+
+S. Srija — Frontend Developer & Documentation Support
 
 ## 🤝 Contributing
 
